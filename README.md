@@ -1,8 +1,11 @@
 # Brain Scan Classification – Deep Learning Project
-
 **Eylon Yehiel**
 
 ---
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/eeeabb72-49db-4608-910b-dd1962a4b518" alt="giphy">
+</div>
+
 
 ## Introduction
 This project develops a deep learning system for automatic classification of brain tumors using MRI and CT scan images. Using convolutional neural networks (CNNs), the system explores multiple approaches, including models trained from scratch and transfer learning with VGG16. With a dataset of 9,618 images from Kaggle, the system achieved accuracy rates exceeding 95%. This project highlights the potential of deep learning in medical imaging diagnostics, particularly for tumor detection and classification.
