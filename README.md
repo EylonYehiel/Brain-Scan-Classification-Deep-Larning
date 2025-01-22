@@ -59,20 +59,9 @@ Brain tumor detection and classification are crucial in medical diagnosis but of
 - Added augmentation for enriched image representation.
 
 ### 4. **Evaluation Metrics**
-- Accuracy, precision, recall, F1 score.
+- Accuracy, *precision*, recall, F1 score.
 - Confusion matrix and classification report.
-
----
-
-## Results
-### MRI Classification
-- **Best Model**: Fine-tuned VGG16.
-- **Recall**: 99.2% for tumor cases.
-- **Misclassified Samples**: ≤5.
-
-### CT Classification
-- Results vary based on the model. Fine-tuning and transfer learning achieved the most consistent results.
-
+- 
 ---
 
 ## Links
