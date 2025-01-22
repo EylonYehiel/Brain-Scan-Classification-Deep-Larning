@@ -1,6 +1,4 @@
-# Brain Scan Classification – Deep Learning Project
-**Eylon Yehiel**
-
+### Brain Scan Classification – Deep Learning Project
 ---
 <div align="center">
   <img src="https://github.com/user-attachments/assets/eeeabb72-49db-4608-910b-dd1962a4b518" alt="giphy">
@@ -43,20 +41,20 @@ Brain tumor detection and classification are crucial in medical diagnosis but of
 
 ## Methodology
 ### 1. **Models from Scratch**
+- A Rescale layer - dividing by 255 (maximal pixel value)
 - 5 Conv2D layers with increasing filters (32–256) and ReLU activation.
 - MaxPooling2D layers for spatial reduction.
 - Fully connected layer with sigmoid activation.
-- Training: 30 epochs, batch size 30.
+- Batch Normalization layers 
 
 ### 2. **Data Augmentation**
 - Random horizontal flip, rotation, zoom, and brightness adjustment.
 - Added dropout layers to prevent overfitting.
-- Training: 100 epochs.
+- Trained with more epochs enabling the model to adapt to image mutations.
 
 ### 3. **Transfer Learning (VGG16)**
-- **Feature Extraction**: Used the second-last layer of VGG16 with ImageNet weights.
+- **Feature Extraction**: Used the second-last layer of VGG16 with ImageNet weights. Aaugmentation addition examined for enriched image representation.
 - **Fine-Tuning**: Enabled training for the last 4 layers of the pretrained model.
-- Added augmentation for enriched image representation.
 
 ### 4. **Evaluation Metrics**
 - Accuracy, *precision*, recall, F1 score.
