@@ -55,13 +55,13 @@ Brain tumor detection and classification are crucial in medical diagnosis but of
 
 ### 3. **Transfer Learning (VGG16)**
 - **Feature Extraction**: Used the second-last layer of VGG16 with ImageNet weights.
-- **Fine-Tuning**: Enabled training for the last 4 layers of the VGG model.
+- **Fine-Tuning**: Enabled training for the last 4 layers of the pretrained model.
 - Added augmentation for enriched image representation.
 
 ### 4. **Evaluation Metrics**
 - Accuracy, *precision*, recall, F1 score.
 - Confusion matrix and classification report.
-- 
+  
 ---
 
 ## Links
