@@ -56,7 +56,7 @@ Brain tumor detection and classification are crucial in medical diagnosis but of
 - **Feature Extraction**: Used the second-last layer of VGG16 with ImageNet weights. Aaugmentation addition examined for enriched image representation.
 - **Fine-Tuning**: Enabled training for the last 4 layers of the pretrained model.
 
-#### **Evaluation Metrics**
+#### **Evaluation Matrices:**
 By confusion matrix and classification report:
 - Accuracy
 - precision,
